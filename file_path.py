@@ -1,0 +1,6 @@
+dataset_path = r"H:/dataset/data"
+sam_path = r'H:\pycharm projects\breaching-main\segment_anything\sam_vit_h_4b8939.pth'
+temp_path = r'intermediate results'
+processed_data_path = r'H:\pycharm projects\breaching-main\DP\intermediate results'
+fig_path = r'H:\pycharm projects\breaching-main\DP\fig'
+processed_files_path = r'H:\pycharm projects\breaching-main\DP\evaluation\processed data'
