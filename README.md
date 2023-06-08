@@ -1,5 +1,5 @@
 # reconstructed_attack
 
-The implementataion of paper:
+The implementation of paper:
 
 Differential Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy
