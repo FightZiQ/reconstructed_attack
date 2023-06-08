@@ -19,3 +19,18 @@ Here are some examples:
 
 Other attacks are implemented by Jonas Geiping. If you are interested in more reconstruction samples in FL, please check
 out his project: https://github.com/JonasGeiping/breaching
+
+---
+
+## Requirement
+
+The following are the requirements for the implementation of this attack.
+
+### 1. Dataset
+We use four datasets in the experiments. The default dataset is ImageNet, please download it before you run this attack:
+https://www.image-net.org/.
+
+### 2. SAM
+
+We apply SAM to training samples for masks generation and extract images' subjects before training. Please visit the
+project website to get the latest `segment_anything`: https://github.com/facebookresearch/segment-anything.
