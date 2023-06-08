@@ -1,8 +1,9 @@
-# Reconstruction attack against federated learning with differential privacy
+# Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy
+=======
 
-The implementation of paper:
+**The implementation of paper:<br>
+Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy**
 
-Differential Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy
 
 Original samples:
 ![original.png](fig%2Foriginal.png)
