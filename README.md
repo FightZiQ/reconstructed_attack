@@ -1,4 +1,4 @@
-# reconstructed_attack
+# Reconstruction attack against federated learning with differential privacy
 
 The implementation of paper:
 
