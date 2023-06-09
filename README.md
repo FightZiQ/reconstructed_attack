@@ -22,6 +22,28 @@ out his project: https://github.com/JonasGeiping/breaching
 
 ---
 
+## What is this?
+
+Generally, this project provides a sample reconstruction attack against users' gradients in federated learning with
+differential privacy.
+
+* **Federated learning (FL):** FL is a distributed learning for user privacy preservation in which users train a given model 
+and upload the gradients or model updates instead of original training samples.
+
+* **Differential privacy (DP):** DP enables a database owner to release data statistics features without revealing personal privacy.
+In our paper, users' gradients are protected by clipping and perturbation, i.e., users clip and perturb their gradients before
+uploading to the server.
+
+* **Sample reconstruction attack:**  Sample reconstruction attacks aim to reconstruct users' training samples through their
+uploaded gradients, as shown in the beginning example.
+
+* **Our works and this project:** The existing reconstruction attacks are ineffective in FL with DP. In our paper, we
+propose new reconstruction attack to reconstruct users' sample in FL with DP. Simulation results show that the proposed 
+attack can still effectively reconstruct the sensitive information of users' training although gradients are protected by DP.
+This project is a code implementation of the attack proposed in our paper.
+
+---
+
 ## Requirement
 
 The following are the requirements for the implementation of this attack.
