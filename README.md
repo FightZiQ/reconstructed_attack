@@ -34,3 +34,8 @@ https://www.image-net.org/.
 
 We apply SAM to training samples for masks generation and extract images' subjects before training. Please visit the
 project website to get the latest `segment_anything`: https://github.com/facebookresearch/segment-anything.
+Besides, you also need to download the latest SAM model checkpoint to your local devices.
+
+### 3. Dependency path
+
+After you download the dataset and SAM, please provide their local path in `dataset_path` and `sam_path` of `file_path.py`.
