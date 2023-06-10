@@ -2,7 +2,7 @@ import torch
 from DP_model import ConvAttackModel
 from my_attacker import MyAttacker
 from DP_util import *
-from DP.hyperparameters import AttackParameters
+from hyperparameters import AttackParameters
 import scipy
 from metrics import cw_ssim, psnr_compute, mse_compute
 from file_path import temp_path, processed_data_path, processed_files_path
