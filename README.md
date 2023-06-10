@@ -61,3 +61,10 @@ Besides, you also need to download the latest SAM model checkpoint to your local
 ### 3. Dependency path
 
 After you download the dataset and SAM, please provide their local path in `dataset_path` and `sam_path` of `file_path.py`.
+
+---
+
+## Try with a given example
+
+After meeting the above requirement, try `python example.py` for a given example.
+

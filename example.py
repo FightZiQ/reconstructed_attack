@@ -51,7 +51,7 @@ def perform_attacks(save_fig=True, data_cfg=data_cfg_default(), attack_cfg=attac
         gradients = clip_and_perturb(gradients, data_cfg.clipping_bound, data_cfg.epsilon, clip=False)
 
     # attack:
-    attacker = MyAttacker(model, loss_fn, attack_cfg, data_cfg, setup)
+    attacker = MyAttacker(attack_cfg, data_cfg)
     victim_samples = datapoints
     reconstructed_user_data, input_idx, qualified_res = attacker.conv_reconstruct(gradients, optim=optim, filter=filter)
 
@@ -91,7 +91,7 @@ if __name__ == "__main__":
                 ac.num_bins = bin_num
                 # print('batch size: {0}, bins num: {1}, round {2}'.fbkormat(dc.batch_size, ac.num_bins, rounds))
                 res = perform_attacks(save_fig=True, data_cfg=dc, attack_cfg=ac, dataset=dataset, fixed_idx=True,
-                                      use_dp=True, new_samples=False, optim=True, sam=sam, filter=True)
+                                      use_dp=True, new_samples=True, optim=True, sam=sam, filter=True)
                 if not res[2]:
                     # cannot optimize from noised gradients
                     continue
