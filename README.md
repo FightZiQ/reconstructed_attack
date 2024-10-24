@@ -1,7 +1,7 @@
 # Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy
 
 **The implementation of paper:<br>
-Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy**
+Local Differential Privacy is Not Enough: A Sample Reconstruction Attack against Federated Learning with Local Differential Privacy**
 
 We propose an attack against federated learning (FL) with differential privacy (DP) in which gradients uploaded by
 users are clipped and perturbed.
