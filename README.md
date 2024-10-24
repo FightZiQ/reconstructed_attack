@@ -1,4 +1,4 @@
-# Privacy Does Not Work: A Sample Reconstruction Attack against Federated Learning with Differential Privacy
+# Local Differential Privacy is Not Enough: A Sample Reconstruction Attack against Federated Learning with Local Differential Privacy
 
 **The implementation of paper:<br>
 Local Differential Privacy is Not Enough: A Sample Reconstruction Attack against Federated Learning with Local Differential Privacy**
