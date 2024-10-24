@@ -21,6 +21,10 @@ Other attacks are implemented by Jonas Geiping. If you are interested in more re
 out his project: https://github.com/JonasGeiping/breaching
 
 ---
+## Note
+Our paper is under review now. We will update the latest and more complete code when the paper is accepted. (10.24.2024)
+
+---
 
 ## What is this?
 
